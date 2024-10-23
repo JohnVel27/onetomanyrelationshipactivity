@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #114903; /* Blue header */
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Button Styles */
+.edit-btn {
+    background-color: #28a745; /* Green background for edit */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.edit-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red background for delete */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* No Projects Found Message */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #6c757d; /* Grey background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.back-btn:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+}
+
